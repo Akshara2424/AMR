@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large or temporary files (we're NOT ignoring Dataset.xlsx because it's tiny)
+# *.xlsx   ← do NOT uncomment this line
+
+# Gradio / temporary
+*.log
